@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="zh-cn">
     <head>
         <meta charset="utf-8">
     	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     	<meta name="viewport" content="width=device-width, initial-scale=1">
-    	<title>Bootstrap 101 Template</title>
+    	<title>HomePage</title>
 
     	<!-- Bootstrap -->
 	    <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -19,28 +20,58 @@
 	      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
 	    <![endif]-->
+
+	    <!--
+	    “行（row）”必须包含在 .container （固定宽度）或 .container-fluid （100% 宽度）中
+		只有“列（column）”可以作为行（row）”的直接子元素。 -->
+
+		<!-- 超小屏幕xs 手机 (<768px) 	小屏幕sm 平板 (≥768px)	中等屏幕md 桌面显示器 (≥992px)	大屏幕lg 大桌面显示器 (≥1200px) -->
+
+		<!-- xs lg -->
+
 	</head>
 	<body>
-		<div class="row">
-			<div class="container">
-				<div class="music col-xs-12 col-sm-8 col-sm-push-2 col-md-4 col-md-push-4">
-					<i class="glyphicon glyphicon-stop" id="btn"></i>
+
+		<div class="container-fluid">
+			<div class="row">
+				<header class="header blur col-xs-12"></header>
+				<div class="contentBg col-xs-12">
+					<div class="row">
+						<div class="profileBg col-xs-12 col-lg-4"></div>
+					</div>
+				</div>
+				<div class="content col-xs-12">
+					<div class="row">
+						<div class="profile col-xs-12 col-lg-4">
+							<div class="row">
+								<div class="avatar col-xs-12">
+							<!-- 		<img src="http://tva3.sinaimg.cn/crop.900.257.114.114.180/a48acbbbjw8f7omn0bek7j20xc1bpapq.jpg" alt=""> -->
+									<img src="img/avatar.png" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<footer class="footer blur col-xs-12"></footer>
+			</div>
+			<div class="row">
+				<div class="music col-xs-12 col-lg-4 col-lg-push-4">
+					<i class="glyphicon glyphicon-play" id="btn"></i>
 					<i class="glyphicon glyphicon-forward" id="forward"></i>
 				</div>
-			<!--	<h1 class="col-xs-12 col-sm-8 col-sm-push-2 col-md-4 col-md-push-4" id="js_mTxt">
-					TEST
-				</h1> -->
 			</div>
 		</div>
+		
 		
 		<audio id="player" src=""></audio>
 
 
 	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+	    <!--  <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script> -->
+	   	<script src="js/jquery.js"></script>
 	    <!-- Include all compiled plugins (below), or include individual files as needed -->
 	    <script src="js/bootstrap.min.js"></script>
-	    <!-- <script src="js/script.js"></script> -->
 	    <script src="js/player.js"></script>
+	    <script src="js/script.js"></script> 
 	</body>
 </html>

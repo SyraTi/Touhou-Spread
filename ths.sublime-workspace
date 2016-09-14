@@ -4,6 +4,106 @@
 		"selected_items":
 		[
 			[
+				"init",
+				"initPlayer"
+			],
+			[
+				"res",
+				"resize	.resize()"
+			],
+			[
+				"cons",
+				"contrast()"
+			],
+			[
+				"over",
+				"overflow-y"
+			],
+			[
+				"head",
+				"header"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"o-",
+				"op-ms	-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=100)';"
+			],
+			[
+				"fil",
+				"filter"
+			],
+			[
+				"hea",
+				"header"
+			],
+			[
+				"url",
+				"url('35847388"
+			],
+			[
+				"conta",
+				"container-fluid	 bootstrap.min.css"
+			],
+			[
+				"list",
+				"listId"
+			],
+			[
+				"gloab",
+				"global"
+			],
+			[
+				"load",
+				"loadMusicList"
+			],
+			[
+				"ur",
+				"url"
+			],
+			[
+				"music",
+				"musicId"
+			],
+			[
+				"musi",
+				"musicId"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"tra",
+				"track"
+			],
+			[
+				"getMusi",
+				"getMusicUrl"
+			],
+			[
+				"getMu",
+				"getMusicList"
+			],
+			[
+				"play",
+				"playerLists_list"
+			],
+			[
+				"data",
+				"data"
+			],
+			[
+				"key",
+				"key2"
+			],
+			[
+				"pl",
+				"playlist('124394335"
+			],
+			[
 				"glyph",
 				"glyphicon-stop"
 			],
@@ -12,19 +112,7 @@
 				"print_r"
 			],
 			[
-				"url",
-				"urlList"
-			],
-			[
-				"tra",
-				"tracks"
-			],
-			[
 				"player",
-				"playerLists"
-			],
-			[
-				"pl",
 				"playerLists"
 			],
 			[
@@ -88,18 +176,13 @@
 	"buffers":
 	[
 		{
+			"contents": "\n<!DOCTYPE html>\n<html lang=\"zh-cn\">\n    <head>\n        <meta charset=\"utf-8\">\n    	<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    	<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    	<title>HomePage</title>\n\n    	<!-- Bootstrap -->\n	    <link href=\"css/bootstrap.min.css\" rel=\"stylesheet\">\n\n	    <link href=\"fonts/REIMU-webfont/stylesheet.css\" rel=\"stylesheet\">\n\n	    <link href=\"css/style.css\" rel=\"stylesheet\">\n\n    	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->\n	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->\n	    <!--[if lt IE 9]>\n	      <script src=\"http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js\"></script>\n	      <script src=\"http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js\"></script>\n	    <![endif]-->\n	</head>\n	<body>\n\n		<div class=\"container-fluid\">\n			<div class=\"row\">\n				<div class=\"header blur col-xs-12\">\n				</div>\n				<div class=\"footer blur col-xs-12\">\n				</div>\n			</div>\n			<div class=\"row\">\n				<div class=\"music col-xs-12 col-sm-8 col-sm-push-2 col-md-4 col-md-push-4\">\n					<i class=\"glyphicon glyphicon-play\" id=\"btn\"></i>\n					<i class=\"glyphicon glyphicon-forward\" id=\"forward\"></i>\n				</div>\n			</div>\n\n\n		</div>\n		\n		\n		<audio id=\"player\" src=\"\"></audio>\n\n\n	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->\n	    <script src=\"http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js\"></script>\n	    <!-- Include all compiled plugins (below), or include individual files as needed -->\n	    <script src=\"js/bootstrap.min.js\"></script>\n	    <script src=\"js/player.js\"></script>\n	    <script src=\"js/script.js\"></script> \n	</body>\n</html>",
 			"file": "index.php",
+			"file_size": 1754,
+			"file_write_time": 131181176331829467,
 			"settings":
 			{
-				"buffer_size": 1690,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/style.css",
-			"settings":
-			{
-				"buffer_size": 438,
+				"buffer_size": 1700,
 				"line_ending": "Windows"
 			}
 		},
@@ -107,63 +190,7 @@
 			"file": "js/player.js",
 			"settings":
 			{
-				"buffer_size": 992,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "php/player.php",
-			"settings":
-			{
-				"buffer_size": 935,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/xampp/htdocs/NeteaseCloudMusicApi/weapi/README.md",
-			"settings":
-			{
-				"buffer_size": 271,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/xampp/htdocs/NeteaseCloudMusicApi/api/MusicAPI.php",
-			"settings":
-			{
-				"buffer_size": 3482,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/xampp/htdocs/NeteaseCloudMusicApi/api/README.md",
-			"settings":
-			{
-				"buffer_size": 68,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/xampp/htdocs/NeteaseCloudMusicApi/eapi/README.md",
-			"settings":
-			{
-				"buffer_size": 132,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/xampp/htdocs/NeteaseCloudMusicApi/weapi/MusicAPI.php",
-			"settings":
-			{
-				"buffer_size": 6626,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "php/playerLists.php",
-			"settings":
-			{
-				"buffer_size": 50,
+				"buffer_size": 1376,
 				"line_ending": "Windows"
 			}
 		},
@@ -171,16 +198,24 @@
 			"file": "js/script.js",
 			"settings":
 			{
-				"buffer_size": 499,
+				"buffer_size": 1828,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "css/bootstrap.css",
+			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 137590,
-				"line_ending": "Unix"
+				"buffer_size": 574,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "php/player.php",
+			"settings":
+			{
+				"buffer_size": 2092,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -192,9 +227,13 @@
 	"command_palette":
 	{
 		"height": 490.0,
-		"last_filter": "in",
+		"last_filter": "re",
 		"selected_items":
 		[
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
 			[
 				"in",
 				"Package Control: Install Package"
@@ -236,7 +275,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 571.0
+		"width": 593.0
 	},
 	"console":
 	{
@@ -258,13 +297,30 @@
 	"expanded_folders":
 	[
 		"/D/xampp/htdocs/Touhou-Spread",
+		"/D/xampp/htdocs/Touhou-Spread/css",
+		"/D/xampp/htdocs/Touhou-Spread/fonts",
 		"/D/xampp/htdocs/Touhou-Spread/js",
 		"/D/xampp/htdocs/Touhou-Spread/php"
 	],
 	"file_history":
 	[
-		"/D/Program Files/sublime3/Data/Settings/SideBarEnhancements.json",
+		"/D/xampp/htdocs/Touhou-Spread/php/playerLists.php",
 		"/D/xampp/htdocs/Touhou-Spread/js/playerList.js",
+		"/D/Program Files/sublime3/Data/Packages/Default/Default (Windows).sublime-keymap",
+		"/D/xampp/htdocs/Touhou-Spread/ths.sublime-project",
+		"/D/Program Files/sublime3/Data/Settings/SideBarEnhancements.json",
+		"/D/xampp/htdocs/Touhou-Spread/php/test.json",
+		"/D/xampp/htdocs/Touhou-Spread/php/test.tx",
+		"/D/xampp/htdocs/Touhou-Spread/css/style.css",
+		"/D/xampp/htdocs/Touhou-Spread/js/player.js",
+		"/D/xampp/htdocs/Touhou-Spread/php/player.php",
+		"/D/xampp/htdocs/NeteaseCloudMusicApi/weapi/README.md",
+		"/D/xampp/htdocs/NeteaseCloudMusicApi/api/MusicAPI.php",
+		"/D/xampp/htdocs/NeteaseCloudMusicApi/api/README.md",
+		"/D/xampp/htdocs/NeteaseCloudMusicApi/eapi/README.md",
+		"/D/xampp/htdocs/NeteaseCloudMusicApi/weapi/MusicAPI.php",
+		"/D/xampp/htdocs/Touhou-Spread/js/script.js",
+		"/D/xampp/htdocs/Touhou-Spread/css/bootstrap.css",
 		"/D/xampp/htdocs/Saru/index.html",
 		"/D/xampp/htdocs/Touhou-Spread/fonts/REIMU-webfont/stylesheet.css",
 		"/D/Program Files/sublime3/Data/Packages/Better Completion/sbc-setting.sublime-settings",
@@ -278,9 +334,7 @@
 		"/D/Program Files/sublime3/Data/Packages/User/SublimeAllAutocomplete.sublime-settings",
 		"/D/Program Files/sublime3/Data/Packages/User/css_style_completions.sublime-settings",
 		"/D/Program Files/sublime3/Data/Installed Packages/All Autocomplete.sublime-package",
-		"/D/xampp/htdocs/Touhou-Spread/css/bootstrap.css",
 		"/D/Program Files/sublime3/Data/Packages/User/Default (Windows).sublime-keymap",
-		"/D/xampp/htdocs/Touhou-Spread/ths.sublime-project",
 		"/D/Program Files/sublime3/Data/Packages/User/Side Bar.sublime-settings",
 		"/D/Program Files/sublime3/Data/Packages/SideBarEnhancements/Side Bar.sublime-settings",
 		"/C/Users/GenyaHoshino/AppData/Local/Temp/HZ$D.302.4650/HZ$D.302.4651/dist/css/bootstrap.min.css",
@@ -295,7 +349,6 @@
 		"/D/xampp/htdocs/tp323/index.php",
 		"/D/xampp/htdocs/tag/Conf/config.php",
 		"/D/xampp/htdocs/Touhou-Spread/index.php",
-		"/D/xampp/htdocs/Touhou-Spread/css/style.css",
 		"/C/Users/GenyaHoshino/Desktop/新建文本文档.txt",
 		"/D/xampp/apache/README.txt",
 		"/C/Users/GenyaHoshino/Desktop/temp.php",
@@ -308,7 +361,6 @@
 		"/C/Users/GenyaHoshino/AppData/Local/Temp/HZ$D.297.4372/HZ$D.297.4373/pmg/index.php",
 		"/D/xampp/htdocs/PhpProject1/#.php",
 		"/C/Users/GenyaHoshino/AppData/Local/Temp/HZ$D.756.040/HZ$D.756.041/readme.txt",
-		"/D/xampp/htdocs/Touhou-Spread/js/script.js",
 		"/D/迅雷下载/CommViewforWiFi (1)/使用说明.txt",
 		"/D/xampp/htdocs/Touhou-Spread/font/c86/webfontkit/stylesheet.css",
 		"/C/Users/GenyaHoshino/Documents/IISExpress/config/applicationhost.config",
@@ -361,6 +413,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"save",
 			"directoryB",
 			"directory",
 			"dir",
@@ -382,7 +435,7 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -391,19 +444,20 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1690,
+						"buffer_size": 1700,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1039,
-								1039
+								0,
+								0
 							]
 						],
 						"settings":
 						{
+							"auto_complete": true,
 							"auto_complete_triggers":
 							[
 								{
@@ -421,41 +475,6 @@
 								{
 									"characters": ".#",
 									"selector": "text.html"
-								}
-							],
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 180.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "css/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 438,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								411,
-								428
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
 								},
 								{
 									"characters": ".#",
@@ -470,228 +489,8 @@
 									"selector": "text.html"
 								}
 							],
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 240.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "js/player.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 992,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								615,
-								615
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 420.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "php/player.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 935,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								591,
-								587
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"open_with_edit": true,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/D/xampp/htdocs/NeteaseCloudMusicApi/weapi/README.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 271,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/D/xampp/htdocs/NeteaseCloudMusicApi/api/MusicAPI.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3482,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								511,
-								511
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1440.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/D/xampp/htdocs/NeteaseCloudMusicApi/api/README.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 68,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/D/xampp/htdocs/NeteaseCloudMusicApi/eapi/README.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 132,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "/D/xampp/htdocs/NeteaseCloudMusicApi/weapi/MusicAPI.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6626,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -701,60 +500,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "php/playerLists.php",
+					"buffer": 1,
+					"file": "js/player.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 50,
+						"buffer_size": 1376,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								50,
-								50
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"open_with_edit": true,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "js/script.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 499,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								343,
-								343
+								150,
+								150
 							]
 						],
 						"settings":
@@ -786,28 +545,110 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
-					"file": "css/bootstrap.css",
+					"buffer": 2,
+					"file": "js/script.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 137590,
+						"buffer_size": 1828,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								684,
+								684
 							]
 						],
 						"settings":
 						{
+							"auto_complete": true,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 574,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								515,
+								515
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/CSS3/CSS3.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "php/player.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2092,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								594,
+								594
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
 							"auto_complete_triggers":
 							[
 								{
@@ -825,29 +666,17 @@
 								{
 									"characters": ".#",
 									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
 								}
 							],
-							"syntax": "Packages/CSS3/CSS3.tmLanguage",
-							"tab_size": 2,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]

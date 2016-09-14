@@ -1,11 +1,11 @@
 
 *{
 	font-family: 'microsoft yahei';
-	transition: all 0.5s;
+
 }
 
 body{
-	background: #000;
+	overflow-y:hidden;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -38,6 +38,11 @@ h6{
 	font-size: 16px;
 }
 
+.blur{
+	filter:blur(5px) brightness(1.1);
+	-webkit-filter:blur(5px) brightness(1.1);
+}
+
 #js_mTxt{
 	margin: auto 0;
 	text-align:center;
@@ -49,5 +54,34 @@ h6{
 	color: #fff;
 	margin: auto 0;
 }
-#btn{
+
+.header,.footer,.content,.contentBg{
+	position:absolute;
+}
+
+
+.header{
+	top:-10px;
+}
+
+.footer{
+}
+
+.profileBg{
+	background-color:rgba(0, 0, 0, 0.1);
+}
+
+.contentBg{
+	z-index:1;
+}
+/*
+.profileBg{
+	filter:blur(5px);
+	-webkit-filter:blur(5px);
+}*/
+
+.avatar>img{
+	display:block;
+	margin:0 auto;
+	border-radius:50%;
 }

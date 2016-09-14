@@ -1,16 +1,15 @@
 btn = $('#btn');
 forward = $('#forward');
 player = $('#player');
+var firstUrl;
 urlList = [];
 now = 0;
 oAudio = document.getElementById('player');  
 
-$(document).ready(function() {
-	init();
-	getMusic();
-});
 
-function init(){
+
+function initPlayer(){
+	oAudio.volume = 0.2;
 	player.bind('ended', function(event) {
 		nextMusic();
 	});
@@ -30,17 +29,46 @@ function init(){
 			oAudio.play();
 		}
 	});
+	loadFirstMusic();
 }
-function getMusic(){
-	oAudio.volume = 0.2;
+
+
+function loadFirstMusic()
+{
 	$.ajax({
 		url: 'php/player.php',
-		type: 'GET',
-		dataType: 'json'
+		type: 'POST',
+		data:{'op' : 'loadFirstMusic'}
+	})
+	.done(function(data) {
+		player.attr({
+			src : data
+		});
+		//oAudio.play();
+		loadMusicList();
+		console.log("success");
+	})
+	.fail(function() {
+		console.log("error");
+	})
+	.always(function() {
+		console.log("complete");
+	});
+}
+
+
+
+
+
+function loadMusicList(){
+	$.ajax({
+		url: 'php/player.php',
+		type: 'POST',
+		dataType: 'json',
+		data:{'op' : 'loadMusicList'}
 	})
 	.done(function(data) {
 		urlList = data;
-		nextMusic();
 		console.log("success");
 	})
 	.fail(function() {

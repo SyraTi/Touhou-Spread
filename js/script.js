@@ -1,4 +1,4 @@
-bgImg = ['bg1.png','bg2.png','bg3.jpg'];
+bgImg = ['bg1.jpg','bg2.jpg','bg3.jpg'];
 
 $(document).ready(function() {
 

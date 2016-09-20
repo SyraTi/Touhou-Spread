@@ -3,8 +3,6 @@
 include 'playerLists.php';
 
 include 'MusicAPI_mini.php';
-
-
 $api = new MusicAPI();
 
 $op = $_POST['op'];
@@ -76,11 +74,11 @@ function loadMusicList()
     $urlList = [];
     //echo $playerLists[0];
     global $playerLists_list;
-    foreach ($playerLists_list as $listId) 
+    foreach ($playerLists_list as $listId)
     {
         $list = getMusicList($listId);
         //print_r($res);
-        foreach ($list['playlist']['tracks'] as $track) 
+        foreach ($list['playlist']['tracks'] as $track)
         {
             $url = getMusicUrl($track); // echo $_SESSION['firstUrl']. '\n' . $url. '                              ';
             if (substr($_SESSION['firstUrl'],strripos($_SESSION['firstUrl'],'/')) !== substr($url,strripos($url,'/')))

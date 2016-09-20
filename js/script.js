@@ -41,12 +41,11 @@ function resizePage(){
 		$('.header,.footer').css({
 			height : wHeight+20+'px'
 		});
-		 // clip($('.header'));
 		$('.header').css({
 			clip : 'rect(10px,'+wWidth+'px,'+0.075*wHeight+'px,0px)'
 		});
 		$('.footer').css({
-			clip : 'rect('+(0.9*wHeight)+'px,'+wWidth+'px,'+wHeight+'px,0px)'
+			clip : 'rect('+(0.9*wHeight +10)+'px,'+wWidth+'px,'+(wHeight+10)+'px,0px)'
 		});
 
 		$('.headerShadow').css({
@@ -54,7 +53,7 @@ function resizePage(){
 		});
 		$('.footerShadow').css({
 			height : wHeight * 0.1 +'px',
-			top : (wHeight * 0.9 -10 )  +'px'
+			top : wHeight * 0.9  +'px'
 		});
 
 
@@ -84,9 +83,6 @@ function resizePage(){
 		}
 		clip('menu',wWidth,wHeight);
 
-		// $('.content,.profile').css({
-		// 	height: wHeight * 0.75 + 'px'
-		// });
 
 
 

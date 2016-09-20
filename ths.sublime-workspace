@@ -256,18 +256,10 @@
 	"buffers":
 	[
 		{
-			"file": "index.php",
-			"settings":
-			{
-				"buffer_size": 4423,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "js/script.js",
 			"settings":
 			{
-				"buffer_size": 2789,
+				"buffer_size": 3389,
 				"line_ending": "Windows"
 			}
 		},
@@ -280,10 +272,18 @@
 			}
 		},
 		{
+			"file": "/D/xampp/htdocs/NeteaseCloudMusicApi/weapi/README.md",
+			"settings":
+			{
+				"buffer_size": 271,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 1046,
+				"buffer_size": 1292,
 				"line_ending": "Windows"
 			}
 		}
@@ -375,8 +375,7 @@
 	],
 	"file_history":
 	[
-		"/C/Users/GenyaHoshino/Downloads/danmaku",
-		"/C/Users/GenyaHoshino/Downloads/下载",
+		"/D/xampp/htdocs/Touhou-Spread/index.php",
 		"/D/BaiduYunDownload/C2.Lab 02.Ranko[cmpfans]/C2.Lab 02.Ranko/Hi,want to steal it,Mr.Polak？.txt",
 		"/D/xampp/htdocs/Touhou-Spread/.sublime/SideBarEnhancements.json",
 		"/D/xampp/htdocs/tp323/index.php",
@@ -390,7 +389,6 @@
 		"/D/xampp/htdocs/Touhou-Spread/js/player.js",
 		"/D/xampp/htdocs/Touhou-Spread/js/script.js",
 		"/D/xampp/htdocs/Touhou-Spread/css/style.css",
-		"/D/xampp/htdocs/Touhou-Spread/index.php",
 		"/C/Users/GenyaHoshino/Desktop/temp.php",
 		"/D/xampp/htdocs/Touhou-Spread/php/playerLists.php",
 		"/D/xampp/htdocs/Touhou-Spread/js/playerList.js",
@@ -524,67 +522,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4423,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1112,
-								1112
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": true,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1260.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "js/script.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2789,
+						"buffer_size": 3389,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2168,
-								2168
+								0,
+								0
 							]
 						],
 						"settings":
@@ -615,11 +565,11 @@
 						"translation.y": 1200.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "/D/Program Files/sublime3/Data/Settings/SideBarEnhancements.json",
 					"semi_transient": false,
 					"settings":
@@ -655,6 +605,34 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/xampp/htdocs/NeteaseCloudMusicApi/weapi/README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 271,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								91,
+								91
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
 					"type": "text"
 				},
@@ -664,15 +642,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1046,
+						"buffer_size": 1292,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								747,
-								747
+								0,
+								0
 							]
 						],
 						"settings":
@@ -702,7 +680,7 @@
 						"translation.y": 1020.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]

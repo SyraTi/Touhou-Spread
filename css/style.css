@@ -7,6 +7,11 @@
 body{
 	overflow-y:hidden;
 }
+ul,li{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
 
 h1,h2,h3,h4,h5,h6{
 	margin: 0;
@@ -38,47 +43,87 @@ h6{
 	font-size: 16px;
 }
 
-.blur{
-	filter:blur(5px) brightness(1.1);
-	-webkit-filter:blur(5px) brightness(1.1);
-}
 
 #js_mTxt{
 	margin: auto 0;
 	text-align:center;
 }
 
+
+.header,.headerShadow,.footer,.footerShadow{
+	position:absolute;
+		top:-10px;
+}
+
+.header,.headerShadow{
+}
+.footer{
+}
+
+.content{
+	z-index:0;
+}
+.contentClip{
+	position: absolute;
+}
+
+.blur{
+	filter:blur(5px) brightness(1.1);
+	-webkit-filter:blur(5px) brightness(1.1);
+	z-index:0;
+}
+
+.contentBlur{
+	filter:blur(4px) brightness(1.2);
+	-webkit-filter:blur(4px) brightness(1.2);
+	z-index:0;
+}
+
+.shadow{
+	box-shadow:0px 0px 75px 5px #333;
+	z-index:0;
+}
+
+.contentShadow{
+	box-shadow:0px 0px 30px 3px #333;
+	z-index:0;
+}
+/*.square{
+	padding:15px;
+}*/
+/*
+
+.menu{
+}
+.menu>li{
+	background-color: rgba(255, 255, 255, 0.5);
+
+	margin-bottom: 1px;
+}
+*/
+
 .music{
 	text-align:center;
 	font-size: 60px;
 	color: #fff;
 	margin: auto 0;
+	z-index: 3;
 }
 
-.header,.footer,.content,.contentBg{
-	position:absolute;
+.avatar{
+	padding:15px;
+	height: 200px;
 }
-
-
-.header{
-	top:-10px;
-}
-
-.footer{
-}
-
+/*
 .profileBg{
-	background-color:rgba(0, 0, 0, 0.1);
+	position: absolute;
+
 }
 
 .contentBg{
 	z-index:1;
 }
-/*
-.profileBg{
-	filter:blur(5px);
-	-webkit-filter:blur(5px);
-}*/
+*/
 
 .avatar>img{
 	display:block;

@@ -4,26 +4,6 @@
 		"selected_items":
 		[
 			[
-				"conta",
-				"container-fluid"
-			],
-			[
-				"wid",
-				"width"
-			],
-			[
-				"blu",
-				"blur"
-			],
-			[
-				"par",
-				"parent"
-			],
-			[
-				"pos",
-				"position"
-			],
-			[
 				"Ma",
 				"Math.random()	Math"
 			],
@@ -130,6 +110,10 @@
 			[
 				"url",
 				"url('35847388"
+			],
+			[
+				"conta",
+				"container-fluid	 bootstrap.min.css"
 			],
 			[
 				"gloab",
@@ -255,38 +239,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.php",
-			"settings":
-			{
-				"buffer_size": 4423,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/script.js",
-			"settings":
-			{
-				"buffer_size": 2789,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/Program Files/sublime3/Data/Settings/SideBarEnhancements.json",
-			"settings":
-			{
-				"buffer_size": 157,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/style.css",
-			"settings":
-			{
-				"buffer_size": 1046,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -296,16 +248,16 @@
 	"command_palette":
 	{
 		"height": 490.0,
-		"last_filter": "re",
+		"last_filter": "in",
 		"selected_items":
 		[
 			[
-				"re",
-				"Package Control: Remove Package"
-			],
-			[
 				"in",
 				"Package Control: Install Package"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
 			],
 			[
 				"remo",
@@ -367,22 +319,22 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/D/xampp/htdocs/Touhou-Spread",
-		"/D/xampp/htdocs/Touhou-Spread/css",
-		"/D/xampp/htdocs/Touhou-Spread/fonts"
-	],
 	"file_history":
 	[
-		"/C/Users/GenyaHoshino/Downloads/danmaku",
-		"/C/Users/GenyaHoshino/Downloads/下载",
-		"/D/BaiduYunDownload/C2.Lab 02.Ranko[cmpfans]/C2.Lab 02.Ranko/Hi,want to steal it,Mr.Polak？.txt",
-		"/D/xampp/htdocs/Touhou-Spread/.sublime/SideBarEnhancements.json",
-		"/D/xampp/htdocs/tp323/index.php",
+		"/C/Users/GenyaHoshino/Desktop/化妆品洗发水品牌官网/翡娅洗发水化妆品网站模板/pro.html",
+		"/C/Users/GenyaHoshino/Desktop/化妆品洗发水品牌官网/翡娅洗发水化妆品网站模板/nysqcx.html",
+		"/C/Users/GenyaHoshino/Desktop/化妆品洗发水品牌官网/翡娅洗发水化妆品网站模板/nyfwcx.html",
+		"/C/Users/GenyaHoshino/Desktop/化妆品洗发水品牌官网/翡娅洗发水化妆品网站模板/new.html",
+		"/D/xampp/tomcat/webapps/new/index.jsp",
+		"/D/xampp/tomcat/webapps/new/new.html",
+		"/C/Users/GenyaHoshino/Desktop/化妆品洗发水品牌官网/翡娅洗发水化妆品网站模板/index.html",
+		"/C/Users/GenyaHoshino/Desktop/化妆品洗发水品牌官网/翡娅洗发水化妆品网站模板/about.html",
+		"/D/Program Files/sublime3/Data/Packages/Package Control/Package Control.sublime-settings",
+		"/D/Program Files/sublime3/Data/Packages/Default/Preferences.sublime-settings",
+		"/D/Program Files/sublime3/Data/Packages/PackageResourceViewer/PackageResourceViewer.sublime-settings",
+		"/D/Program Files/sublime3/Data/Settings/SideBarEnhancements.json",
 		"/C/Users/GenyaHoshino/workspace/timer/manifest.mf",
 		"/C/Users/GenyaHoshino/Desktop/东方安利素材/弹幕xml/1.xml",
-		"/D/Program Files/sublime3/Data/Settings/SideBarEnhancements.json",
 		"/D/xampp/htdocs/Touhou-Spread/sftp-config.json",
 		"/C/Users/GenyaHoshino/AppData/Local/Temp/HZ$D.223.3937/HZ$D.223.3938/snifferpro_33LC.com/使用说明.txt",
 		"/D/Program Files/sublime3/Data/Packages/User/SFTP.sublime-settings",
@@ -407,7 +359,6 @@
 		"/D/xampp/htdocs/Saru/index.html",
 		"/D/xampp/htdocs/Touhou-Spread/fonts/REIMU-webfont/stylesheet.css",
 		"/D/Program Files/sublime3/Data/Packages/Better Completion/sbc-setting.sublime-settings",
-		"/D/Program Files/sublime3/Data/Packages/Package Control/Package Control.sublime-settings",
 		"/D/Program Files/sublime3/Data/Packages/SublimeCodeIntel/.codeIntel/config.txt",
 		"/D/Program Files/sublime3/Data/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
 		"/D/Program Files/sublime3/Data/Packages/SublimeAllAutocomplete/SublimeAllAutocomplete.sublime-settings",
@@ -427,8 +378,8 @@
 		"/D/xampp/htdocs/tag/index.php",
 		"/D/Program Files/sublime3/Data/Packages/User/Preferences.sublime-settings",
 		"/D/Program Files/sublime3/Data/Installed Packages/Package Control.sublime-package",
-		"/D/Program Files/sublime3/Data/Packages/Default/Preferences.sublime-settings",
 		"/D/Program Files/sublime3/Data/Packages/User/Package Control.sublime-settings",
+		"/D/xampp/htdocs/tp323/index.php",
 		"/D/xampp/htdocs/tag/Conf/config.php",
 		"/C/Users/GenyaHoshino/Desktop/新建文本文档.txt",
 		"/D/xampp/apache/README.txt",
@@ -479,7 +430,7 @@
 	],
 	"find":
 	{
-		"height": 43.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
@@ -519,192 +470,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4423,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1112,
-								1112
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": true,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1260.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "js/script.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2789,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2168,
-								2168
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1200.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/D/Program Files/sublime3/Data/Settings/SideBarEnhancements.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 157,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "css/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1046,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								747,
-								747
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS3/CSS3.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1020.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -739,23 +506,15 @@
 		]
 	},
 	"menu_visible": true,
-	"output.CSS Extended Completions":
-	{
-		"height": 0.0
-	},
 	"output.find_results":
 	{
 		"height": 0.0
 	},
-	"output.sftp":
-	{
-		"height": 130.0
-	},
 	"pinned_build_system": "",
-	"project": "ths.sublime-project",
+	"project": "index.sublime-project",
 	"replace":
 	{
-		"height": 80.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -788,10 +547,6 @@
 	"selected_group": 0,
 	"settings":
 	{
-		"xdebug":
-		{
-			"hide_conflict": false
-		}
 	},
 	"show_minimap": true,
 	"show_open_files": false,
